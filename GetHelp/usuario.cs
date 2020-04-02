@@ -11,6 +11,7 @@ namespace GetHelp
         private string nome;
         private string senha;
         private string descricao;
+        private bool banido = false;
         
         private void registrar()
         {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dieiverson\\Documents\\GetHelp\\GetHelp\\GetHelp.csproj": {}
+    "C:\\Users\\Dieiverson\\Documents\\get_help\\GetHelp\\GetHelp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dieiverson\\Documents\\GetHelp\\GetHelp\\GetHelp.csproj": {
+    "C:\\Users\\Dieiverson\\Documents\\get_help\\GetHelp\\GetHelp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dieiverson\\Documents\\GetHelp\\GetHelp\\GetHelp.csproj",
+        "projectUniqueName": "C:\\Users\\Dieiverson\\Documents\\get_help\\GetHelp\\GetHelp.csproj",
         "projectName": "GetHelp",
-        "projectPath": "C:\\Users\\Dieiverson\\Documents\\GetHelp\\GetHelp\\GetHelp.csproj",
+        "projectPath": "C:\\Users\\Dieiverson\\Documents\\get_help\\GetHelp\\GetHelp.csproj",
         "packagesPath": "C:\\Users\\Dieiverson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dieiverson\\Documents\\GetHelp\\GetHelp\\obj\\",
+        "outputPath": "C:\\Users\\Dieiverson\\Documents\\get_help\\GetHelp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
