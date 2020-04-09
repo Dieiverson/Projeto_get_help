@@ -1,0 +1,89 @@
+-- Banco de dados: `gethelp`
+--
+CREATE DATABASE IF NOT EXISTS `gethelp` DEFAULT CHARACTER SET utf8 COLLATE utf8_unicode_ci;
+USE `gethelp`;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `mensagem`
+--
+
+CREATE TABLE `mensagem` (
+  `id_mensagem` int(11) NOT NULL,
+  `texto` text COLLATE utf8_unicode_ci NOT NULL,
+  `id_sala` int(11) NOT NULL,
+  `id_usuario` int(11) NOT NULL,
+  `dataHorario` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `sala`
+--
+
+CREATE TABLE `sala` (
+  `id_sala` int(11) NOT NULL,
+  `descricao` text COLLATE utf8_unicode_ci NOT NULL,
+  `nome` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `quantUsuario` int(11) NOT NULL,
+  `senha` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  `privada` tinyint(1) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Estrutura da tabela `usuario`
+--
+
+CREATE TABLE `usuario` (
+  `id` int(11) NOT NULL,
+  `nome` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `senha` varchar(20) COLLATE utf8_unicode_ci NOT NULL,
+  `descricao` text COLLATE utf8_unicode_ci NOT NULL,
+  `banido` tinyint(1) NOT NULL,
+  `crp` varchar(99) COLLATE utf8_unicode_ci NOT NULL,
+  `avaliacao_psicologo` int(11) NOT NULL,
+  `status_psicologo` int(11) NOT NULL,
+  `nivel_acesso` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Índices para tabelas despejadas
+--
+
+--
+-- Índices para tabela `mensagem`
+--
+ALTER TABLE `mensagem`
+  ADD PRIMARY KEY (`id_mensagem`);
+
+--
+-- Índices para tabela `sala`
+--
+ALTER TABLE `sala`
+  ADD PRIMARY KEY (`id_sala`);
+
+--
+-- Índices para tabela `usuario`
+--
+ALTER TABLE `usuario`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT de tabelas despejadas
+--
+
+--
+-- AUTO_INCREMENT de tabela `mensagem`
+--
+ALTER TABLE `mensagem`
+  MODIFY `id_mensagem` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de tabela `usuario`
+--
+ALTER TABLE `usuario`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
