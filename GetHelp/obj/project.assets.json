@@ -1631,7 +1631,7 @@
           "ref/net461/System.Security.Cryptography.Cng.dll": {}
         },
         "runtime": {
-          "lib/net461/System.Security.Cryptography.Cng.dll": {}
+          "runtimes/win/lib/net461/System.Security.Cryptography.Cng.dll": {}
         }
       },
       "System.Security.Principal.Windows/4.5.1": {
@@ -1644,7 +1644,7 @@
           "ref/net461/System.Security.Principal.Windows.dll": {}
         },
         "runtime": {
-          "lib/net461/System.Security.Principal.Windows.dll": {}
+          "runtimes/win/lib/net461/System.Security.Principal.Windows.dll": {}
         }
       },
       "System.Text.Encodings.Web/4.5.0": {
@@ -2720,27 +2720,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dieiverson\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dieiverson\\Documents\\get_help\\GetHelp\\GetHelp.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Facul\\Dev II\\Projeto_get_help\\GetHelp\\GetHelp.csproj",
       "projectName": "GetHelp",
-      "projectPath": "C:\\Users\\Dieiverson\\Documents\\get_help\\GetHelp\\GetHelp.csproj",
-      "packagesPath": "C:\\Users\\Dieiverson\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dieiverson\\Documents\\get_help\\GetHelp\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\Facul\\Dev II\\Projeto_get_help\\GetHelp\\GetHelp.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Facul\\Dev II\\Projeto_get_help\\GetHelp\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Dieiverson\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net461"
@@ -2767,7 +2760,8 @@
             "target": "Package",
             "version": "[2.1.7, )"
           }
-        }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

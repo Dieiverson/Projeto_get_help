@@ -1,0 +1,5 @@
+C:\Users\User\Desktop\Facul\Dev II\Projeto_get_help\Get_Help_net\Get_Help_net\bin\Debug\netstandard2.0\Get_Help_net.deps.json
+C:\Users\User\Desktop\Facul\Dev II\Projeto_get_help\Get_Help_net\Get_Help_net\bin\Debug\netstandard2.0\Get_Help_net.dll
+C:\Users\User\Desktop\Facul\Dev II\Projeto_get_help\Get_Help_net\Get_Help_net\obj\Debug\netstandard2.0\Get_Help_net.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Facul\Dev II\Projeto_get_help\Get_Help_net\Get_Help_net\obj\Debug\netstandard2.0\Get_Help_net.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Facul\Dev II\Projeto_get_help\Get_Help_net\Get_Help_net\obj\Debug\netstandard2.0\Get_Help_net.AssemblyInfo.cs
