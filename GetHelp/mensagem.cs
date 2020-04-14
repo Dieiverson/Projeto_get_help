@@ -7,11 +7,11 @@ namespace GetHelp
 {
     public class mensagem
     {
-        private int idMensagem;
-        private int idSala;
-        private int idUsuario;
-        private DateTime dataHorario;
-        private string texto;
+        public int idMensagem { get; set; }
+        public int idSala { get; set; }
+        public int idUsuario { get; set; }
+        public DateTime dataHorario { get; set; }
+        public string texto { get; set; }
 
         private void enviarMensagem()
         {

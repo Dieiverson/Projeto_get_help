@@ -7,16 +7,17 @@ namespace GetHelp
 {
     public class usuario
     {
-        private int id;
-        private string nome;
-        private string senha;
-        private string descricao;
-        private bool banido = false;
+        public int id { get; set; } 
+        public string nome { get; set; }
+        public string senha { get; set; }
+        public string descricao { get; set; }
+        public bool banido { get; set; }
         
         private void registrar()
         {
 
         }
+
         private void logar()
         {
 
@@ -25,6 +26,14 @@ namespace GetHelp
         {
 
         }
+
+        public usuario()
+        {
+            this.banido = false;
+        }
+
+
+        
 
     }
 }

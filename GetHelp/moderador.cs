@@ -7,7 +7,7 @@ namespace GetHelp
 {
     public class moderador : usuario
     {
-        private int nivelAcesso;
+        public int nivelAcesso { get; set; }
         private void kick()
         {
 

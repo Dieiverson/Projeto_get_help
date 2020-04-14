@@ -7,10 +7,10 @@ namespace GetHelp
 {
     public class psicologo : usuario
     {
-        private string CRP;
-        private int avaliacao;
-        private bool status;
-        
+        public string CRP { get; set; }
+        public int avaliacao { get; set; }
+        public bool status { get; set; }
+
         private void criarSala()
         {
 
