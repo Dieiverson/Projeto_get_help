@@ -1556,7 +1556,7 @@
           "ref/net46/Microsoft.Data.SqlClient.dll": {}
         },
         "runtime": {
-          "runtimes/win/lib/net46/Microsoft.Data.SqlClient.dll": {}
+          "lib/net46/Microsoft.Data.SqlClient.dll": {}
         },
         "resource": {
           "lib/net46/de/Microsoft.Data.SqlClient.resources.dll": {
@@ -2189,7 +2189,7 @@
           "ref/net461/System.Security.Cryptography.Cng.dll": {}
         },
         "runtime": {
-          "runtimes/win/lib/net461/System.Security.Cryptography.Cng.dll": {}
+          "lib/net461/System.Security.Cryptography.Cng.dll": {}
         }
       },
       "System.Security.Principal.Windows/4.5.1": {
@@ -2202,7 +2202,7 @@
           "ref/net461/System.Security.Principal.Windows.dll": {}
         },
         "runtime": {
-          "runtimes/win/lib/net461/System.Security.Principal.Windows.dll": {}
+          "lib/net461/System.Security.Principal.Windows.dll": {}
         }
       },
       "System.Text.Encodings.Web/4.5.0": {
@@ -3812,20 +3812,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\Dieiverson\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Facul\\Dev II\\Projeto_get_help\\GetHelp\\GetHelp.csproj",
+      "projectUniqueName": "C:\\Users\\Dieiverson\\Documents\\get_help\\GetHelp\\GetHelp.csproj",
       "projectName": "GetHelp",
-      "projectPath": "C:\\Users\\User\\Desktop\\Facul\\Dev II\\Projeto_get_help\\GetHelp\\GetHelp.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Facul\\Dev II\\Projeto_get_help\\GetHelp\\obj\\",
+      "projectPath": "C:\\Users\\Dieiverson\\Documents\\get_help\\GetHelp\\GetHelp.csproj",
+      "packagesPath": "C:\\Users\\Dieiverson\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dieiverson\\Documents\\get_help\\GetHelp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Dieiverson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net461"
@@ -3868,8 +3875,7 @@
             "target": "Package",
             "version": "[3.1.3, )"
           }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
       }
     },
     "runtimes": {

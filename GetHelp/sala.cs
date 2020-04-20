@@ -13,7 +13,6 @@ namespace GetHelp
         public int quantUsuario { get; set; }
         public string senha { get; set; }
         public bool privada { get; set; }
-
         private void mudarDescricao()
         {
 
