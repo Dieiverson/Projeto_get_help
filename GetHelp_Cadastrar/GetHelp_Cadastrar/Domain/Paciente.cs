@@ -16,5 +16,7 @@ namespace GetHelp_Cadastrar.Domain
         public string Email { get; set; }
 
         public int Celular{ get; set; }
+
+       
     }
 }
