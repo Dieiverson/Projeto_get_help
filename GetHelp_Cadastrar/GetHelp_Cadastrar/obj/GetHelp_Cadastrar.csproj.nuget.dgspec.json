@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Facul\\Dev II\\Projeto_get_help\\GetHelp_Cadastrar\\GetHelp_Cadastrar\\GetHelp_Cadastrar.csproj": {}
+    "C:\\Users\\Dani\\source\\repos\\GetHelp_Cadastrar\\GetHelp_Cadastrar\\GetHelp_Cadastrar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Facul\\Dev II\\Projeto_get_help\\GetHelp_Cadastrar\\GetHelp_Cadastrar\\GetHelp_Cadastrar.csproj": {
+    "C:\\Users\\Dani\\source\\repos\\GetHelp_Cadastrar\\GetHelp_Cadastrar\\GetHelp_Cadastrar.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Facul\\Dev II\\Projeto_get_help\\GetHelp_Cadastrar\\GetHelp_Cadastrar\\GetHelp_Cadastrar.csproj",
+        "projectUniqueName": "C:\\Users\\Dani\\source\\repos\\GetHelp_Cadastrar\\GetHelp_Cadastrar\\GetHelp_Cadastrar.csproj",
         "projectName": "GetHelp_Cadastrar",
-        "projectPath": "C:\\Users\\User\\Desktop\\Facul\\Dev II\\Projeto_get_help\\GetHelp_Cadastrar\\GetHelp_Cadastrar\\GetHelp_Cadastrar.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Facul\\Dev II\\Projeto_get_help\\GetHelp_Cadastrar\\GetHelp_Cadastrar\\obj\\",
+        "projectPath": "C:\\Users\\Dani\\source\\repos\\GetHelp_Cadastrar\\GetHelp_Cadastrar\\GetHelp_Cadastrar.csproj",
+        "packagesPath": "C:\\Users\\Dani\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dani\\source\\repos\\GetHelp_Cadastrar\\GetHelp_Cadastrar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,6 +69,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -77,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
